@@ -8,7 +8,7 @@ const data = [
 export default function DescribingDamage() {
   return (
     <table>
-      <thead>
+      <thead className='border-b-2'>
         <tr>
           <th>Describing Damage</th>
         </tr>

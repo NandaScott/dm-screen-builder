@@ -8,7 +8,7 @@ const data = [
 export default function UnseenAttackers() {
   return (
     <table>
-      <thead>
+      <thead className='border-b-2'>
         <tr>
           <th>Unseen Attackers</th>
         </tr>

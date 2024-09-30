@@ -14,19 +14,19 @@ const data = [
 export default function ActionsInCombat() {
   return (
     <table>
-      <thead>
+      <thead className='border-b-2'>
         <tr>
           <th colSpan={2}>Actions in Combat</th>
         </tr>
         <tr>
-          <th>Action</th>
+          <th className='border-r-2'>Action</th>
           <th>Effect</th>
         </tr>
       </thead>
       <tbody>
         {data.map(({ col1, col2 }) => (
           <tr>
-            <td>{col1}</td>
+            <td className='border-r-2'>{col1}</td>
             <td>{col2}</td>
           </tr>
         ))}

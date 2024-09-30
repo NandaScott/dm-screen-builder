@@ -8,7 +8,7 @@ const data = [
 export default function TwoWeaponFighting() {
   return (
     <table>
-      <thead>
+      <thead className='border-b-2'>
         <tr>
           <th>Two Weapon Fighting</th>
         </tr>

@@ -15,7 +15,7 @@ export default function CombatSmallNotes() {
       <tbody>
         {data.map(({ col1, col2 }) => (
           <tr>
-            <td>{col1}</td>
+            <td className='border-r-2'>{col1}</td>
             <td>{col2}</td>
           </tr>
         ))}
