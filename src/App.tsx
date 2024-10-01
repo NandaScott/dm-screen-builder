@@ -1,6 +1,6 @@
 import { useRef } from 'react';
-import Combat from './pages/combat';
 import { useReactToPrint } from 'react-to-print';
+import General from './pages/general';
 
 export default function App() {
   const contentRef = useRef<HTMLDivElement>(null);
@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       <button onClick={reactToPrintFn}>Print</button>
-      <Combat ref={contentRef} />
+      <General ref={contentRef} />
     </div>
   );
 }
